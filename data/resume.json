@@ -1,0 +1,242 @@
+{
+  "_comment": "Editable portfolio and resume content. Update values here; index.html renders these sections automatically.",
+  "profile": {
+    "_comment": "Hero identity and opening copy.",
+    "name": "Suhaas Vellanki",
+    "title": "Aspiring AI Engineer",
+    "intro": "I build practical AI systems and data-driven tools that turn messy information into dependable decisions. My work sits at the intersection of machine learning, automation, and product thinking, with a focus on helping teams move from raw signals to useful action."
+  },
+  "about": {
+    "_comment": "Short professional summary paragraphs.",
+    "paragraphs": [
+      "I am an AI engineering student with a leaning toward applied machine learning, intelligent automation, and data-driven problem solving. I enjoy building systems that are useful in the real world, not just accurate in a notebook.",
+      "My engineering mindset is shaped by mountaineering: steady pacing, reading the terrain before committing, and preparing thoroughly so the climb stays manageable. I like to move deliberately, validate assumptions, and make small improvements that compound over time."
+    ]
+  },
+  "experience": [
+    {
+      "_comment": "Primary experience appears in the main timeline.",
+      "role": "Artificial Intelligence Engineer Intern",
+      "organization": "onsemi",
+      "location": "Scottsdale, Arizona",
+      "dates": "June 2026 - Sep 2026",
+      "featured": true,
+      "bullets": [
+        "Migrated statistical forecasting pipelines of 30+ training, testing, and validation notebooks from Databricks to Snowflake, driving consolidation of ML workflows onto a single enterprise platform.",
+        "Designed and deployed an automated pricing data-collection algorithm that analyzes pricing for thousands of electronic parts daily, now in production and used by the Pricing team.",
+        "Expanded on my product pricing data collection system by developing a prediction algorithm that analyzes variations in pricing data.",
+        "Developed an automated transaction-cleaning system that detects and reprocesses stuck Oracle WMS transactions, enhancing operational efficiency for the Supply Chain team.",
+        "Engineered several other intelligent automation solutions for Supply Chain, Pricing, and Finance teams, leveraging data integration and workflow orchestration to improve operational efficiencies."
+      ]
+    },
+    {
+      "role": "Artificial Intelligence Developer Intern",
+      "organization": "Lawnly",
+      "location": "Remote",
+      "dates": "Oct 2025 - Feb 2026",
+      "bullets": [
+        "Led AI initiatives at an early-stage startup, designing and implementing end-to-end production AI pipelines.",
+        "Implemented intent-classification models to accurately route chatbot queries and improve conversational flow.",
+        "Built privacy-aware data-parsing capabilities to safeguard sensitive user information and ensure compliant data handling.",
+        "Developed secure data pull/push mechanisms that enable the agent to interact with internal systems and execute workflow actions."
+      ]
+    }
+  ],
+  "additionalExperience": {
+    "_comment": "Lower-priority experience shown as cards.",
+    "entries": [
+      {
+        "role": "Intern / Mentee",
+        "organization": "Techsophy",
+        "location": "Remote",
+        "dates": "Jan 2025 - Aug 2025",
+        "bullets": [
+          "Supported development of AI-driven healthcare applications, including a retrieval-augmented generation (RAG) system enabling medical professionals to query large libraries of research papers, journals, and clinical manuals through a conversational interface.",
+          "Also worked in project-based capacity under direct guidance of one of the senior supervisors, where I worked on a RAG model and a Sentiment Analysis Classification Model."
+        ]
+      },
+      {
+        "role": "Instructor",
+        "organization": "The Coder School",
+        "location": "Remote",
+        "dates": "Dec 2024 - Jan 2026",
+        "bullets": [
+          "Taught 2D Game Design in Scratch, Python, HTML/CSS, JavaScript, Lua, and C to K-12 students in the format of both 2-on-1 sessions and lecture classes.",
+          "Mentored Middle and High School students with more advanced projects, such as hackathon submissions, passion projects, and personal websites."
+        ]
+      },
+      {
+        "role": "Instructor",
+        "organization": "Knodemy",
+        "location": "Remote",
+        "dates": "May 2024 - Dec 2024",
+        "bullets": [
+          "Taught computer science skills to K-12 students such as block-based coding, game design, and basic programming with Python and Java.",
+          "Taught online Fall classes to Pakistani orphans.",
+          "Maintained User Interfaces, improved backend systems and worked on data collection with Python programming."
+        ]
+      },
+      {
+        "role": "Research Intern",
+        "organization": "Cambridge Center for International Research (CCIR)",
+        "location": "Remote",
+        "dates": "May 2023 - Sep 2023",
+        "bullets": [
+          "Researched, collected data and developed ML models for redshift prediction using Random Forest Regression.",
+          "Wrote a research paper where I used machine learning to estimate photometric redshift from infrared data from the James Webb Space Telescope."
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "LunchLink",
+      "dates": "March 2024 - Nov 2024",
+      "summary": "A machine learning-powered app designed to battle food wastage across my high school district and address existing system inefficiencies.",
+      "bullets": [
+        "Designed and developed a RAG (Retrieval-Augmented Generative Model)-powered chatbot to assist our high school's lunch team in analyzing student feedback.",
+        "Currently being used by our high school's nutrition staff."
+      ],
+      "technologies": ["Python", "RAG", "ML", "Flask"],
+      "linkLabel": "GitHub [PLACEHOLDER]"
+    },
+    {
+      "name": "SmartGen",
+      "dates": "Aug 2024 - June 2025",
+      "summary": "A machine learning solution designed to address California's energy demand and generation patterns during the Duck Curve challenge.",
+      "bullets": [
+        "Developed a ML model utilizing Gradient-boosted machine learning (LightGBM) as a potential solution to California's energy crisis.",
+        "Built an optimized solution for household energy consumption and solar generation using matplotlib, seaborn, and Plotly to showcase practical impact.",
+        "Developed a UI for users to view daily energy utilization stats using Python, HTML, CSS, and JavaScript.",
+        "Developed a Retrieval Augmented Generation (RAG) approach for displaying analysis of our data using Natural Language Processing (NLP) and Large Language Model (LLM) techniques with the GPT API."
+      ],
+      "technologies": ["LightGBM", "Python", "Plotly", "RAG"],
+      "note": "Presented at the 2024 Congressional App Challenge; Placed top 10 in California's tenth congressional district.",
+      "linkLabel": "GitHub [PLACEHOLDER]"
+    }
+  ],
+  "education": {
+    "institution": "University of California, San Diego",
+    "degree": "B.S. in Artificial Intelligence Engineering",
+    "graduation": "Expected June 2029",
+    "gpa": "GPA: 3.516",
+    "coursework": "Advanced Data Structures, Design and Analysis of Algorithms, Introduction to Probability and Statistics, Systems Programming & Software Tools, Computer Organization, Mathematics for Algorithms, Discrete Mathematics, Introduction to Artificial Intelligence"
+  },
+  "skills": {
+    "languages": ["Python", "Java", "C", "C++", "JavaScript", "TypeScript", "Assembly", "HTML", "CSS"],
+    "technologies": ["Git", "Docker", "Google Cloud", "Azure", "PostgreSQL", "Snowflake", "Databricks", "LangChain", "PyTorch", "Scikit-learn", "TensorFlow", "Pandas", "Plotly", "Flask", "Django", "Microsoft Power Automate"]
+  },
+  "certifications": [
+    "Google Cloud Fundamentals: Core Infrastructure (2024)",
+    "Prompt Engineering with LangChain (2024)",
+    "PCAP (Certified Associate in Python Programming) (2022)"
+  ],
+  "fieldNotes": [
+    {
+      "key": "kilimanjaro",
+      "name": "Kilimanjaro Summit",
+      "badge": "Summit",
+      "summary": "\u201cPole pole\u201d taught me that sustained effort beats speed when the route is long and the air is thin.",
+      "title": "Kilimanjaro",
+      "content": "It is easy to mistake effort for progress when everything is moving quickly. On Kilimanjaro, the lesson was the opposite: a disciplined pace matters more than a dramatic burst. The route became a reminder that making steady progress under pressure is often the most reliable way to reach a difficult goal."
+    },
+    {
+      "key": "mont-blanc",
+      "name": "Tour du Mont Blanc",
+      "badge": "Circuit",
+      "summary": "Linking valleys, passes, and borders into one continuous route felt like systems integration at altitude.",
+      "title": "Tour du Mont Blanc",
+      "content": "The route links many valleys, passes, and borders into one continuous movement. It felt like a live map of how systems fit together: each section depended on the one before it, and each change in terrain affected the next decision."
+    },
+    {
+      "key": "everest",
+      "name": "Everest Base Camp",
+      "badge": "Base",
+      "summary": "Acclimatization, iteration, and respecting limits made the route feel like an engineering sprint with guardrails.",
+      "title": "Everest Base Camp",
+      "content": "Altitude changes the way you think. It reduces confidence in bold assumptions and asks instead for humility, repetition, and respect for the environment. Every stage on the route had a reason behind it, and the best decisions were not the fastest ones but the ones that kept the whole plan viable."
+    },
+    {
+      "key": "balkan",
+      "name": "Balkan Peaks Trail",
+      "badge": "Traverse",
+      "summary": "When the route is uncertain, good judgment matters more than perfect information.",
+      "title": "Balkan Peaks Trail",
+      "content": "Some routes are not perfectly mapped, and some decisions have to be made with incomplete information. That is a familiar feeling in engineering work too: not every dataset is clean, not every signal is complete, and not every assumption can be validated before the next step."
+    }
+  ],
+  "slideshow": {
+    "_comment": "Placeholder image gallery shown below Hiking & Trekking. Replace paths and captions here.",
+    "slides": [
+      {
+        "image": "trip_images/ks1.JPG",
+        "caption": "Reaching Uhuru Peak on Day 6 of our trek, pictured is our tour group including me, my father, uncle and cousin. I was 15 years old at the time, but I'm never gonna forget how extraordinanry that moment was."
+      },
+      {
+        "image": "trip_images/ks2.JPG",
+        "caption": "Placeholder caption for Kilimanjaro image 2."
+      },
+      {
+        "image": "trip_images/ks3.JPG",
+        "caption": "Placeholder caption for Kilimanjaro image 3."
+      },
+      {
+        "image": "trip_images/tmb1.jpg",
+        "caption": "Placeholder caption for Tour du Mont Blanc."
+      },
+      {
+        "image": "trip_images/ebc1.jpg",
+        "caption": "Placeholder caption for Everest Base Camp image 1."
+      },
+      {
+        "image": "trip_images/ebc2.jpg",
+        "caption": "Placeholder caption for Everest Base Camp image 2."
+      },
+      {
+        "image": "trip_images/ebc3.jpg",
+        "caption": "Placeholder caption for Everest Base Camp image 3."
+      },
+      {
+        "image": "trip_images/ebc4.jpg",
+        "caption": "Placeholder caption for Everest Base Camp image 4."
+      },
+      {
+        "image": "trip_images/bpt6.jpg",
+        "caption": "Placeholder caption for Balkan Peaks Trail image 6."
+      },
+      {
+        "image": "trip_images/bpt7.jpg",
+        "caption": "Placeholder caption for Balkan Peaks Trail image 7."
+      },
+      {
+        "image": "trip_images/bpt3.jpg",
+        "caption": "Placeholder caption for Balkan Peaks Trail image 3."
+      },
+      {
+        "image": "trip_images/bpt1.jpg",
+        "caption": "Placeholder caption for Balkan Peaks Trail image 1."
+      },
+      {
+        "image": "trip_images/bpt5.jpg",
+        "caption": "Placeholder caption for Balkan Peaks Trail image 5."
+      },
+      {
+        "image": "trip_images/bpt2.jpg",
+        "caption": "Placeholder caption for Balkan Peaks Trail image 2."
+      },
+      {
+        "image": "trip_images/bpt4.jpg",
+        "caption": "Placeholder caption for Balkan Peaks Trail image 4."
+      }
+    ]
+  },
+  "contact": {
+    "email": "suhaasvellanki07@gmail.com",
+    "github": "https://github.com/suhaasv05",
+    "githubLabel": "github.com/suhaasv05",
+    "linkedin": "https://linkedin.com/in/suhaas-vellanki-572944168/",
+    "linkedinLabel": "linkedin.com/in/suhaas-vellanki-572944168/",
+    "resume": "resume.pdf",
+    "resumeLabel": "Download PDF"
+  }
+}

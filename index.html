@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suhaas Vellanki | Aspiring AI Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio of Suhaas Vellanki, an aspiring AI engineer focused on applied machine learning, intelligent automation, and data-driven problem solving."
+    />
+    <meta property="og:title" content="Suhaas Vellanki | Aspiring AI Engineer" />
+    <meta
+      property="og:description"
+      content="A mountain-inspired portfolio for a student engineer building AI systems and practical automation." 
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#1d2a2d" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' fill='%23f6f3ee'/%3E%3Cpath d='M18 96L48 44L62 68L82 30L109 96H18Z' fill='%23252f31'/%3E%3Cpath d='M12 96L42 58L58 80L76 52L117 96H12Z' fill='%235d6d60'/%3E%3Cpath d='M32 96L58 72L82 96H32Z' fill='%23d2a96d'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <aside class="altitude-meter" aria-label="Progress and route elevation">
+      <div class="meter-shell">
+        <div class="meter-label">
+          <span class="meter-title">Elevation</span>
+          <span id="altitude-value" class="altitude-value">0 m</span>
+        </div>
+        <div class="meter-line" aria-hidden="true">
+          <div class="meter-fill" id="meter-fill"></div>
+        </div>
+      </div>
+
+      <div class="camp-markers" aria-label="Section markers">
+        <button class="camp-marker active" data-target="base-camp" aria-label="Jump to Base Camp">
+          <span class="marker-dot" aria-hidden="true"></span>
+          <span class="marker-text">Base</span>
+        </button>
+        <button class="camp-marker" data-target="about" aria-label="Jump to Camp 1 About">
+          <span class="marker-dot" aria-hidden="true"></span>
+          <span class="marker-text">Camp 1</span>
+        </button>
+        <button class="camp-marker" data-target="experience" aria-label="Jump to Camp 2 Experience">
+          <span class="marker-dot" aria-hidden="true"></span>
+          <span class="marker-text">Camp 2</span>
+        </button>
+        <button class="camp-marker" data-target="projects" aria-label="Jump to Camp 3 Projects">
+          <span class="marker-dot" aria-hidden="true"></span>
+          <span class="marker-text">Camp 3</span>
+        </button>
+        <button class="camp-marker" data-target="education-skills" aria-label="Jump to Camp 4 Education and Skills">
+          <span class="marker-dot" aria-hidden="true"></span>
+          <span class="marker-text">Camp 4</span>
+        </button>
+        <button class="camp-marker" data-target="field-notes" aria-label="Jump to Field Notes">
+          <span class="marker-dot" aria-hidden="true"></span>
+          <span class="marker-text">Field</span>
+        </button>
+        <button class="camp-marker" data-target="summit" aria-label="Jump to Summit">
+          <span class="marker-dot" aria-hidden="true"></span>
+          <span class="marker-text">Summit</span>
+        </button>
+      </div>
+    </aside>
+
+    <svg class="trail-svg" viewBox="0 0 140 2200" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+      <path id="trail-path" d="M 80 120 C 70 260, 120 320, 78 420 S 38 590, 82 670 S 120 860, 76 930 S 32 1130, 92 1210 S 116 1420, 78 1510 S 40 1700, 90 1800 S 110 2000, 78 2140" />
+    </svg>
+
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle color theme">
+      <span class="toggle-icon" aria-hidden="true">☀</span>
+    </button>
+
+    <header class="hero section" id="base-camp" data-elevation="0">
+      <div class="hero-inner reveal">
+        <!-- Profile content is rendered from data/resume.json. -->
+        <p class="eyebrow">Base Camp</p>
+        <h1 id="profile-name"></h1>
+        <p class="subtitle" id="profile-title"></p>
+        <p class="intro" id="profile-intro"></p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#about">About Me</a>
+          <a class="btn btn-secondary" href="#summit">Contact</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="sun-glow"></div>
+        <div class="fog fog-one"></div>
+        <div class="fog fog-two"></div>
+        <img class="mountain-reference parallax-layer layer-six" data-parallax-speed="0.005" src="assets/layers/layer6.jpg" alt="Layered mountain valley with distant peaks and a forested foreground" />
+        <img class="mountain-reference parallax-layer layer-five" data-parallax-speed="0.035" src="assets/layers/layer5.png" alt="" />
+        <img class="mountain-reference parallax-layer layer-four" data-parallax-speed="0.085" src="assets/layers/layer4.png" alt="" />
+        <img class="mountain-reference parallax-layer layer-one" data-parallax-speed="0.22" src="assets/layers/layer1.png" alt="" />
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="content-section section reveal" id="about" data-elevation="1500">
+        <div class="section-head">
+          <span class="camp-tag">Camp 1 · 1,500 m</span>
+          <h2>About</h2>
+        </div>
+        <!-- About paragraphs are generated from the JSON paragraphs array. -->
+        <div class="section-body split-layout" id="about-content"></div>
+      </section>
+
+      <section class="content-section section reveal" id="experience" data-elevation="3400">
+        <div class="section-head">
+          <span class="camp-tag">Camp 2 · 3,400 m</span>
+          <h2>Experience</h2>
+        </div>
+
+        <!-- Primary roles are rendered into this timeline from resume.json. -->
+        <div class="timeline" id="experience-timeline" aria-label="Professional experience timeline"></div>
+      </section>
+
+      <section class="content-section section reveal additional-experience" id="additional-experience" data-elevation="4100">
+        <div class="section-head">
+          <span class="camp-tag">Additional Experience</span>
+          <h2>Additional Experience</h2>
+        </div>
+
+        <!-- Lower-priority roles are rendered as editable cards from resume.json. -->
+        <div class="additional-experience-grid" id="additional-experience-grid"></div>
+      </section>
+
+      <section class="content-section section reveal" id="projects" data-elevation="5000">
+        <div class="section-head">
+          <span class="camp-tag">Camp 3 · 5,000 m</span>
+          <h2>Projects</h2>
+        </div>
+
+        <!-- Projects are generated from the projects array in resume.json. -->
+        <div class="card-grid project-grid" id="projects-grid"></div>
+      </section>
+
+      <section class="content-section section reveal" id="education-skills" data-elevation="6200">
+        <div class="section-head">
+          <span class="camp-tag">Camp 4 · 6,200 m</span>
+          <h2>Education, Skills, &amp; Certifications</h2>
+        </div>
+
+        <!-- Education, skills, and certifications are rendered from resume.json. -->
+        <div class="education-grid" id="education-grid"></div>
+      </section>
+
+      <section class="content-section section reveal" id="field-notes" data-elevation="7800">
+        <div class="section-head">
+          <span class="camp-tag">Field Notes · 7,800 m</span>
+          <h2>Hiking &amp; Trekking</h2>
+        </div>
+
+        <!-- Field note cards and modal content are generated from resume.json. -->
+        <div class="notes-grid" id="field-notes-grid"></div>
+        <!-- The placeholder image slideshow continues the hiking section below the cards. -->
+        <div id="route-slideshow" class="route-slideshow" aria-label="Route image slideshow"></div>
+      </section>
+
+      <section class="content-section section reveal" id="summit" data-elevation="9200">
+        <div class="section-head">
+          <span class="camp-tag">Summit · 9,200 m</span>
+          <h2>Contact</h2>
+        </div>
+
+        <!-- Contact links are rendered from the contact object in resume.json. -->
+        <div class="contact-layout" id="contact-layout"></div>
+
+        <p class="summit-signoff">The route is clear. I am ready for the next ascent.</p>
+        <div class="cta-row final-row">
+          <a class="btn btn-primary" href="#base-camp">Back to Base Camp</a>
+        </div>
+      </section>
+    </main>
+
+    <div class="modal" id="note-modal" aria-hidden="true">
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="modal-close" type="button" aria-label="Close field note">Close</button>
+        <div class="modal-body">
+          <p class="modal-kicker">Field Notes</p>
+          <h3 id="modal-title">Trail Journal</h3>
+          <div id="modal-content"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
