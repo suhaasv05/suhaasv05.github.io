@@ -159,7 +159,7 @@ const renderSlideshow = (slides) => {
     <div class="slideshow-frame">
       ${slides.map((slide, index) => `
         <figure class="slideshow-slide${index === 0 ? " is-active" : ""}" data-slide-index="${index}">
-          <img src="${escapeHtml(slide.image)}" alt="${escapeHtml(slide.caption)}" />
+          <img src="${escapeHtml(slide.image)}" alt="${escapeHtml(slide.caption)}" loading="lazy" decoding="async" />
           <figcaption>${escapeHtml(slide.caption)}</figcaption>
         </figure>`).join("")}
       <button class="slideshow-control slideshow-prev" type="button" aria-label="Previous gallery image">&#8592;</button>
@@ -253,7 +253,7 @@ const renderResume = (data) => {
       ${listMarkup(project.bullets)}
       <div class="chip-row">${chipsMarkup(project.technologies)}</div>
       ${project.note ? `<p class="subtle-note">${escapeHtml(project.note)}</p>` : ""}
-      <a class="text-link" href="#" aria-label="${escapeHtml(project.name)} project links are placeholder">${escapeHtml(project.linkLabel)}</a>
+      <a class="text-link" href="${escapeHtml(project.linkUrl)}" target="_blank" rel="noreferrer" aria-label="View ${escapeHtml(project.name)} on GitHub">${escapeHtml(project.linkLabel)}</a>
     </article>`).join("");
 
   // Education, skills, and certifications panels.

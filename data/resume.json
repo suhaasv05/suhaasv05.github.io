@@ -98,7 +98,8 @@
         "Currently being used by our high school's nutrition staff."
       ],
       "technologies": ["Python", "RAG", "ML", "Flask"],
-      "linkLabel": "GitHub [PLACEHOLDER]"
+      "linkLabel": "github",
+      "linkUrl": "https://github.com/code4humanitycalhigh/LunchLink"
     },
     {
       "name": "SmartGen",
@@ -112,7 +113,8 @@
       ],
       "technologies": ["LightGBM", "Python", "Plotly", "RAG"],
       "note": "Presented at the 2024 Congressional App Challenge; Placed top 10 in California's tenth congressional district.",
-      "linkLabel": "GitHub [PLACEHOLDER]"
+      "linkLabel": "github",
+      "linkUrl": "https://github.com/suhaasv05/SmartGen/tree/main/cac_code"
     }
   ],
   "education": {
@@ -169,64 +171,64 @@
     "_comment": "Placeholder image gallery shown below Hiking & Trekking. Replace paths and captions here.",
     "slides": [
       {
-        "image": "trip_images/ks1.JPG",
-        "caption": "Reaching Uhuru Peak on Day 6 of our trek, pictured is our tour group including me, my father, uncle and cousin. I was 15 years old at the time, but I'm never gonna forget how extraordinanry that moment was."
+        "image": "trip_images/ks1.webp",
+        "caption": "Reaching Uhuru Peak on Day 6 of our trek, pictured is our tour group including me, my father, uncle and cousin. I was 15 years old at the time, but I'm never gonna forget how extraordinary that moment was."
       },
       {
-        "image": "trip_images/ks2.JPG",
-        "caption": "Placeholder caption for Kilimanjaro image 2."
+        "image": "trip_images/ks2.webp",
+        "caption": ""
       },
       {
-        "image": "trip_images/ks3.JPG",
-        "caption": "Placeholder caption for Kilimanjaro image 3."
+        "image": "trip_images/ks3.webp",
+        "caption": ""
       },
       {
-        "image": "trip_images/tmb1.jpg",
-        "caption": "Placeholder caption for Tour du Mont Blanc."
+        "image": "trip_images/tmb1.webp",
+        "caption": ""
       },
       {
-        "image": "trip_images/ebc1.jpg",
-        "caption": "Placeholder caption for Everest Base Camp image 1."
+        "image": "trip_images/ebc1.webp",
+        "caption": ""
       },
       {
-        "image": "trip_images/ebc2.jpg",
-        "caption": "Placeholder caption for Everest Base Camp image 2."
+        "image": "trip_images/ebc2.webp",
+        "caption": ""
       },
       {
-        "image": "trip_images/ebc3.jpg",
-        "caption": "Placeholder caption for Everest Base Camp image 3."
+        "image": "trip_images/ebc3.webp",
+        "caption": ""
       },
       {
-        "image": "trip_images/ebc4.jpg",
-        "caption": "Placeholder caption for Everest Base Camp image 4."
+        "image": "trip_images/ebc4.webp",
+        "caption": ""
       },
       {
-        "image": "trip_images/bpt6.jpg",
-        "caption": "Placeholder caption for Balkan Peaks Trail image 6."
+        "image": "trip_images/bpt6.webp",
+        "caption": ""
       },
       {
-        "image": "trip_images/bpt7.jpg",
-        "caption": "Placeholder caption for Balkan Peaks Trail image 7."
+        "image": "trip_images/bpt7.webp",
+        "caption": ""
       },
       {
-        "image": "trip_images/bpt3.jpg",
-        "caption": "Placeholder caption for Balkan Peaks Trail image 3."
+        "image": "trip_images/bpt3.webp",
+        "caption": ""
       },
       {
-        "image": "trip_images/bpt1.jpg",
-        "caption": "Placeholder caption for Balkan Peaks Trail image 1."
+        "image": "trip_images/bpt1.webp",
+        "caption": ""
       },
       {
-        "image": "trip_images/bpt5.jpg",
-        "caption": "Placeholder caption for Balkan Peaks Trail image 5."
+        "image": "trip_images/bpt5.webp",
+        "caption": ""
       },
       {
-        "image": "trip_images/bpt2.jpg",
-        "caption": "Placeholder caption for Balkan Peaks Trail image 2."
+        "image": "trip_images/bpt2.webp",
+        "caption": ""
       },
       {
-        "image": "trip_images/bpt4.jpg",
-        "caption": "Placeholder caption for Balkan Peaks Trail image 4."
+        "image": "trip_images/bpt4.webp",
+        "caption": ""
       }
     ]
   },
